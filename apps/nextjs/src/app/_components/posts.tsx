@@ -6,10 +6,10 @@ import {
   useSuspenseQuery,
 } from "@tanstack/react-query";
 
-import type { RouterOutputs } from "@acme/api";
-import { CreatePostSchema } from "@acme/db/schema";
-import { cn } from "@acme/ui";
-import { Button } from "@acme/ui/button";
+import type { RouterOutputs } from "@plot-twist/api";
+import { CreatePostSchema } from "@plot-twist/db/schema";
+import { cn } from "@plot-twist/ui";
+import { Button } from "@plot-twist/ui/button";
 import {
   Form,
   FormControl,
@@ -17,9 +17,9 @@ import {
   FormItem,
   FormMessage,
   useForm,
-} from "@acme/ui/form";
-import { Input } from "@acme/ui/input";
-import { toast } from "@acme/ui/toast";
+} from "@plot-twist/ui/form";
+import { Input } from "@plot-twist/ui/input";
+import { toast } from "@plot-twist/ui/toast";
 
 import { useTRPC } from "~/trpc/react";
 
